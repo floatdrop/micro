@@ -97,7 +97,7 @@ the main `micro` package due to its small size.
   </ul>
 </details></p>
 
-For parsing the incoming request body we included an async function `json`
+For parsing the incoming JSON in request body we included an async function `json`
 
 ```js
 const {json} = require('micro')
